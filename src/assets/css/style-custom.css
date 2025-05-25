@@ -1,0 +1,86 @@
+
+
+.stat-box {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 1rem 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  text-align: left;
+}
+
+.stat-box:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.statistics-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #6c757d;
+  margin-bottom: 0.25rem;
+  text-transform: uppercase;
+}
+
+.rate-percentage {
+  font-size: 26px;
+  font-weight: bold;
+  color: #343a40;
+  margin-bottom: 0.5rem;
+}
+
+
+
+.text-danger {
+  font-size: 14px;
+  color: #dc3545 !important;
+}
+
+.action-link {
+  display: inline-flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.action-link i {
+  margin-right: 4px;
+  font-size: 16px;
+}
+
+.action-link:hover {
+  text-decoration: underline;
+}
+
+.text-info {
+  color: #17a2b8;
+}
+
+.text-info:hover {
+  color: #117a8b;
+}
+
+.text-danger {
+  color: #dc3545;
+}
+
+.text-danger:hover {
+  color: #a71d2a;
+}
+
+.me-2 {
+  margin-right: 0.5rem;
+}
+
+
+/* dashboard riwayat pelaporan */
+.td-keterangan {
+  max-width: 300px;       /* Batas lebar kolom */
+  white-space: normal;    /* Biarkan teks melipat baris */
+  word-wrap: break-word;  /* Pecah kata jika terlalu panjang */
+  font-size: 14px;        /* Ukuran teks */
+  color: #333;            /* Warna teks */
+  line-height: 1.5;       /* Jarak antar baris */
+  padding: 10px;
+}
