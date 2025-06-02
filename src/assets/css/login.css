@@ -1,0 +1,68 @@
+.dropdown-wrapper {
+  width: 100%;
+  margin-bottom: 1.2rem;
+}
+
+.dropdown-wrapper label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.custom-select-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.custom-select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 100%;
+  padding: 0.75rem 2.5rem 0.75rem 1rem; /* kanan untuk ikon */
+  border-radius: 0.4rem;
+  border: 1px solid #ccc;
+  color: rgb(0, 0, 0);
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* Placeholder warna abu-abu */
+.custom-select:invalid {
+  color: gray;
+}
+
+/* Setelah dipilih, teks jadi hitam */
+.custom-select option {
+  color: black;
+}
+
+.select-icon {
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  pointer-events: none;
+  color: rgb(0, 0, 0);
+  font-size: 1.2rem;
+  transform: translateY(-50%);
+}
+
+/* Password input */
+.password-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.password-toggle {
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%);
+  color: #888;
+  font-size: 1.2rem;
+  user-select: none;
+}
+.password-toggle:hover {
+  color: #333;
+}

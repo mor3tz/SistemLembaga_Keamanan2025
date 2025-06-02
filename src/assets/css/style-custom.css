@@ -74,6 +74,24 @@
 }
 
 
+/* Grafik Dropdown Kategori Tahun */
+.dropdown-tahun {
+  display: block;
+  padding: 8px 16px;
+  color: #333; /* warna teks */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.dropdown-tahun:hover {
+  background-color: #f0f0f0; /* latar saat hover */
+  color: #007bff; /* warna teks saat hover */
+  font-weight: 500;
+}
+
+
 /* dashboard riwayat pelaporan */
 .td-keterangan {
   max-width: 300px;       /* Batas lebar kolom */
@@ -84,3 +102,6 @@
   line-height: 1.5;       /* Jarak antar baris */
   padding: 10px;
 }
+
+
+

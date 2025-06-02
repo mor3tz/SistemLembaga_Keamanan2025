@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  background-color: aliceblue;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.item:nth-child(1),
+.item:nth-child(2),
+.item:nth-child(3) {
+  flex-grow: 1;
+}
