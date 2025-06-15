@@ -7,6 +7,7 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   transition: all 0.3s ease;
   text-align: left;
+  width: 25%;
 }
 
 .stat-box:hover {
@@ -103,5 +104,28 @@
   padding: 10px;
 }
 
+/* button tambah anggota */
+.tambah-anggota-wrapper {
+  display: flex;
+  justify-content: flex-start; /* posisi kiri */
+  margin-bottom: 1rem; /* jarak dengan tabel */
+}
 
+.btn-tambah-anggota {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.btn-tambah-anggota:hover {
+  background-color: #45a049;
+}
 

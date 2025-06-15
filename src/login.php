@@ -88,19 +88,19 @@
         <!-- page-body-wrapper ends -->
     </div>
     <!-- password show -->
-   <script>
-    const togglePassword = document.getElementById("togglePassword");
-    const passwordInput = document.getElementById("psw");
+    <script>
+        const togglePassword = document.getElementById("togglePassword");
+        const passwordInput = document.getElementById("psw");
 
-    togglePassword.addEventListener("click", function () {
-        const type = passwordInput.getAttribute("type") === "password" ? "text" : "password";
-        passwordInput.setAttribute("type", type);
+        togglePassword.addEventListener("click", function() {
+            const type = passwordInput.getAttribute("type") === "password" ? "text" : "password";
+            passwordInput.setAttribute("type", type);
 
-        // Ganti ikon (mata terbuka ↔ mata tertutup)
-        this.classList.toggle("fa-eye");
-        this.classList.toggle("fa-eye-slash");
-    });
-</script>
+            // Ganti ikon (mata terbuka ↔ mata tertutup)
+            this.classList.toggle("fa-eye");
+            this.classList.toggle("fa-eye-slash");
+        });
+    </script>
 
     <!-- container-scroller -->
     <!-- plugins:js -->

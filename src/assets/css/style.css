@@ -28470,7 +28470,7 @@ dl li {
   font-family: "Manrope", sans-serif;
   font-weight: 500;
   padding: 0;
-  width: 220px;
+  width: 250px;
   z-index: 11;
   transition: width 0.25s ease, background 0.25s ease;
   -webkit-transition: width 0.25s ease, background 0.25s ease;
@@ -28579,17 +28579,17 @@ dl li {
   transform: rotate(180deg);
 }
 .sidebar .nav .nav-item.active > .nav-link {
-  border-radius: 0px 20px 0px 0px;
-  background: #fff;
+  /* border-radius: 0px 20px 0px 0px; */
+  /* background: #fff; */
   position: relative;
   font-weight: bold;
   font-size: 13px;
 }
-.sidebar .nav .nav-item.active > .nav-link i,
+/* .sidebar .nav .nav-item.active > .nav-link i,
 .sidebar .nav .nav-item.active > .nav-link .menu-title,
 .sidebar .nav .nav-item.active > .nav-link .menu-arrow {
   color: #1F3BB3;
-}
+} */
 .purple .sidebar .nav .nav-item.active > .nav-link i,
 .purple .sidebar .nav .nav-item.active > .nav-link .menu-title,
 .purple .sidebar .nav .nav-item.active > .nav-link .menu-arrow {
@@ -28793,7 +28793,7 @@ dl li {
     top: 97px;
     bottom: 0;
     overflow: auto;
-    right: -220px;
+    right: -400px;
     -webkit-transition: all 0.25s ease-out;
     -o-transition: all 0.25s ease-out;
     transition: all 0.25s ease-out;

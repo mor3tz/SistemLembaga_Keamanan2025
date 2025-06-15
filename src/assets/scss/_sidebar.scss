@@ -2,11 +2,11 @@
 
 .sidebar {
   min-height: calc(100vh - #{$navbar-height});
-  background: $sidebar-light-bg;
+  background: linear-gradient(to right, #e7ebf0, #868e96);
   font-family: $type1;
   font-weight: 500;
   padding: 0;
-  width: $sidebar-width-lg;
+  width: 250px;
   z-index: 11;
   transition: width $action-transition-duration $action-transition-timing-function, background $action-transition-duration $action-transition-timing-function;
   -webkit-transition: width $action-transition-duration $action-transition-timing-function, background $action-transition-duration $action-transition-timing-function;
@@ -112,7 +112,7 @@
       &.active {
         > .nav-link {
             border-radius: 0px 20px 0px 0px;
-            background: $sidebar-light-menu-active-bg;
+            // background: $sidebar-light-menu-active-bg;
             position: relative;
             font-weight: bold;
             font-size: 13px;
